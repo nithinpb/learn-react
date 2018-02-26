@@ -1,4 +1,6 @@
 import React from 'react';
 import { Paper } from 'material-ui';
 
-export default props => <Paper>Right</Paper>;
+export default ({ styles }) => {
+  return <Paper style={styles.Paper}>Right</Paper>;
+};
